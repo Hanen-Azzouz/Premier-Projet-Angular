@@ -1,0 +1,12 @@
+<form #f="ngForm">
+
+<div><label>ID</label><input type="number"name="id" ngModel></div>
+<div><label>TITLE</label><input type="text"name="title" ngModel ></div>
+<div><label>PRICE</label><input type="number"name="price" ngModel></div>
+<div><label>QUANTITY</label><input type="number"name="quantity" ngModel></div>
+<div><input type="submit"value="save" (click)="save(f.value)"></div>
+
+
+
+
+</form>
